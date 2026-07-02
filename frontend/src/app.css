@@ -1,0 +1,26 @@
+.markdown-body {
+  background: transparent !important;
+  color: white !important;
+  font-size: 15px;
+}
+
+.markdown-body pre {
+  background: transparent !important;
+}
+
+.markdown-body code {
+  font-family: "Fira Code", monospace;
+}
+
+.markdown-body a {
+  color: #58a6ff;
+}
+
+.markdown-body img {
+  border-radius: 10px;
+}
+
+.markdown-body table {
+  overflow: hidden;
+  border-radius: 10px;
+}
