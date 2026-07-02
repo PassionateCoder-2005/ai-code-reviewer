@@ -5,6 +5,7 @@ import cors from "cors"
 dotenv.config();
 const server=express();
 server.use(express.json());
+server.use(express.static("./public"))
 server.use(cors())
 server.use("/api/ai",aiRouter);
 export default server;
