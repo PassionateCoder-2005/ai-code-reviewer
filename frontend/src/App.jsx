@@ -23,7 +23,7 @@ const [loading, setLoading] = useState(false);
     setReview("");
 
     const { data } = await axios.post(
-      "http://localhost:3000/api/ai/ai-reviewer",
+      "https://ai-code-reviewer-il68.onrender.com/api/ai/ai-reviewer",
       { code }
     );
 
